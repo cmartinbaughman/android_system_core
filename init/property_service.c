@@ -101,6 +101,8 @@ struct {
     { "selinux."         , AID_SYSTEM,   0 },
     { "net.pdp",          AID_RADIO,    AID_RADIO },
     { "service.bootanim.exit", AID_GRAPHICS, 0 },
+    { "persist.wimax.",   AID_SYSTEM,   1000 },
+    { "wimax.",           AID_SYSTEM,   1000 },
 #ifdef PROPERTY_PERMS_APPEND
 PROPERTY_PERMS_APPEND
 #endif
